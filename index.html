@@ -22,6 +22,7 @@
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0d0614; color: #f3e8ff; }
         .glow-purple { box-shadow: 0 0 25px rgba(123, 51, 212, 0.35); }
+        .glow-orcid { box-shadow: 0 0 20px rgba(16, 185, 129, 0.5); }
         .bg-grid { background-image: radial-gradient(rgba(123, 51, 212, 0.15) 1px, transparent 1px); background-size: 32px 32px; }
     </style>
 </head>
@@ -298,7 +299,7 @@
         </div>
     </section>
 
-    <!-- PUBLICACIONES, ORCID Y LIBROS DE AMAZON -->
+    <!-- PUBLICACIONES, ORCID Y ARTÍCULOS CON DOI (CON IMAGEN DE HOMERO DONAS) -->
     <section class="py-16 bg-violet-950/40 border-y border-purple-900/30 px-4">
         <div class="max-w-5xl mx-auto space-y-12">
             
@@ -313,31 +314,38 @@
             </div>
 
             <div class="space-y-6">
-                <!-- ORCID CON EL LOGO CIRCULAR VERDE E iD -->
-                <div class="flex items-center gap-3 flex-wrap">
-                    <div class="w-8 h-8 rounded-full bg-emerald-600 flex items-center justify-center text-white font-black text-sm shadow-md glow-purple" title="ORCID iD">iD</div>
-                    <a href="https://orcid.org/0009-0001-5221-6642" target="_blank" class="text-xl font-bold text-emerald-400 hover:text-emerald-300 hover:underline transition-colors">https://orcid.org/0009-0001-5221-6642</a>
+                <!-- ORCID CON CÍRCULO VERDE INTENSO Y iD -->
+                <div class="flex items-center gap-3 flex-wrap p-4 rounded-2xl bg-emerald-950/30 border border-emerald-500/40 max-w-xl">
+                    <div class="w-9 h-9 rounded-full bg-emerald-500 flex items-center justify-center text-slate-950 font-black text-sm shadow-lg glow-orcid">iD</div>
+                    <a href="https://orcid.org/0009-0001-5221-6642" target="_blank" class="text-lg font-extrabold text-emerald-400 hover:text-emerald-300 hover:underline transition-colors">https://orcid.org/0009-0001-5221-6642</a>
                 </div>
 
-                <p class="text-white font-bold uppercase">PUEDES REVISAR MI ORCID COMO INVESTIGADOR Y MIS REPOSITORIOS EN ACADEMIA.EDU Y ZENODO</p>
+                <p class="text-white font-bold uppercase pt-4">PUEDES REVISAR MI ORCID COMO INVESTIGADOR Y MIS REPOSITORIOS EN ACADEMIA.EDU Y ZENODO</p>
                 <a href="https://uvmnet.academia.edu/LeonardoDeLe%C3%B3nGranados" target="_blank" class="text-purple-400 hover:underline break-words block">https://uvmnet.academia.edu/LeonardoDeLe%C3%B3nGranados</a>
                 
-                <div class="space-y-4 text-purple-200 text-sm mt-6">
-                    <div>
-                        <p>De León Granados, L. (2026). The Darkness of God Vs the Shining of Evil: Hacia una síntesis transdisciplinar sobre el origen, la función y la integración del mal en la experiencia humana</p>
-                        <a href="https://doi.org/10.5281/ZENODO.22135783" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22135783</a>
+                <!-- IMAGEN DE HOMERO DONAS ARRIBA DE LOS ARTÍCULOS CON DOI -->
+                <div class="pt-6">
+                    <div class="max-w-md mx-auto mb-8">
+                        <img src="homero donas portada.jpg" alt="Investigación y Publicaciones" class="rounded-2xl border-2 border-emerald-500/50 shadow-xl w-full object-cover h-56">
                     </div>
-                    <div>
-                        <p>De León Granados, L. (2022). La hipótesis de la fuga del viajero: Reconceptualización de la paradoja de Fermi y el Gran Filtro mediante la métrica de Alcubierre</p>
-                        <a href="https://doi.org/10.5281/ZENODO.22074621" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22074621</a>
-                    </div>
-                    <div>
-                        <p>De León Granados, L. (2025). El Universo como Brana: Gravedad, cuerdas y la arquitectura de la realidad extra-dimensional.</p>
-                        <a href="https://doi.org/10.5281/ZENODO.22089362" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22089362</a>
-                    </div>
-                    <div>
-                        <p>De León Granados, L. (2025). Videojuegos de acción y de terror, plasticidad cerebral y neuroaprendizaje en estudiantes de medicina [Tesis y propuesta de investigación].</p>
-                        <a href="https://doi.org/10.5281/ZENODO.22074763" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22074763</a>
+
+                    <div class="space-y-4 text-purple-200 text-sm">
+                        <div>
+                            <p>De León Granados, L. (2026). The Darkness of God Vs the Shining of Evil: Hacia una síntesis transdisciplinar sobre el origen, la función y la integración del mal en la experiencia humana</p>
+                            <a href="https://doi.org/10.5281/ZENODO.22135783" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/ZENODO.22135783</a>
+                        </div>
+                        <div>
+                            <p>De León Granados, L. (2022). La hipótesis de la fuga del viajero: Reconceptualización de la paradoja de Fermi y el Gran Filtro mediante la métrica de Alcubierre</p>
+                            <a href="https://doi.org/10.5281/ZENODO.22074621" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/ZENODO.22074621</a>
+                        </div>
+                        <div>
+                            <p>De León Granados, L. (2025). El Universo como Brana: Gravedad, cuerdas y la arquitectura de la realidad extra-dimensional.</p>
+                            <a href="https://doi.org/10.5281/ZENODO.22089362" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/ZENODO.22089362</a>
+                        </div>
+                        <div>
+                            <p>De León Granados, L. (2025). Videojuegos de acción y de terror, plasticidad cerebral y neuroaprendizaje en estudiantes de medicina [Tesis y propuesta de investigación].</p>
+                            <a href="https://doi.org/10.5281/ZENODO.22074763" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/ZENODO.22074763</a>
+                        </div>
                     </div>
                 </div>
             </div>
