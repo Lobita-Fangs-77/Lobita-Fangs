@@ -299,28 +299,48 @@
         </div>
     </section>
 
-    <!-- PUBLICACIONES, ORCID Y ARTÍCULOS CON DOI (CON IMAGEN DE HOMERO DONAS) -->
+    <!-- PUBLICACIONES, ORCID, LIBROS DE AMAZON Y ARTÍCULOS CON DOI -->
     <section class="py-16 bg-violet-950/40 border-y border-purple-900/30 px-4">
         <div class="max-w-5xl mx-auto space-y-12">
             
-            <div class="grid md:grid-cols-12 gap-8 items-center">
-                <div class="md:col-span-8 space-y-4">
-                    <h2 class="text-2xl font-extrabold text-white">Mis Libros publicados en Amazon</h2>
-                    <a href="https://www.amazon.it/stores/Dr.-Leonardo-De-Le%C3%B3n-Granados/author/B0HGV4HPC7?ref=sr_ntt_srch_lnk_13&sr=1-13&shoppingPortalEnabled=true" target="_blank" class="text-purple-400 hover:underline break-words block text-sm">https://www.amazon.it/stores/Dr.-Leonardo-De-León-Granados/author/B0HGV4HPC7?ref=sr_ntt_srch_lnk_13&sr=1-13&shoppingPortalEnabled=true</a>
+            <!-- LIBROS PUBLICADOS EN AMAZON -->
+            <div class="space-y-6">
+                <div class="grid md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-8 space-y-4">
+                        <h2 class="text-2xl font-extrabold text-white">Mis Libros publicados en Amazon</h2>
+                        <p class="text-xs text-emerald-300 font-bold uppercase tracking-wider">Formatos disponibles: Digital vía Kindle y Tapa blanda (Paperback)</p>
+                        <a href="https://www.amazon.it/stores/Dr.-Leonardo-De-Le%C3%B3n-Granados/author/B0HGV4HPC7?ref=sr_ntt_srch_lnk_13&sr=1-13&shoppingPortalEnabled=true" target="_blank" class="text-purple-400 hover:underline break-words block text-sm">https://www.amazon.it/stores/Dr.-Leonardo-De-León-Granados/author/B0HGV4HPC7?ref=sr_ntt_srch_lnk_13&sr=1-13&shoppingPortalEnabled=true</a>
+                    </div>
+                    <div class="md:col-span-4">
+                        <img src="Libros.jpg" alt="Libros Amazon Lobita Fangs" class="rounded-2xl border border-purple-700/50 shadow-lg w-full object-cover h-48">
+                    </div>
                 </div>
-                <div class="md:col-span-4">
-                    <img src="Libros.jpg" alt="Libros Amazon Lobita Fangs" class="rounded-2xl border border-purple-700/50 shadow-lg w-full object-cover h-48">
+
+                <!-- LISTA DE LIBROS LIMPIA (SIN IDIOMA NI PRECIOS) -->
+                <div class="p-6 rounded-3xl bg-purple-950/60 border border-purple-700/50 space-y-3 text-sm text-purple-200">
+                    <p class="font-bold text-white mb-2">Catálogo literario:</p>
+                    <ul class="list-disc list-inside space-y-1.5">
+                        <li>DO SVIDANIYA, MY SWEET LOVE : Réquiem en Órbita Cero</li>
+                        <li>CINCO AÑOS ROBADOS: Un cuento de hadas entre Kiara y Jessica</li>
+                        <li>EL REFUGIO DEL FUEGO SÁFICO : Una historia de Tlalpan</li>
+                        <li>LOBAS : Crónicas de Sangre, Amor y Asfalto “El Pacto de la Luna Roja”</li>
+                        <li>Crepúsculo Zombie - Libro 1: Un Amor Inusual</li>
+                        <li>LO QUE RESTA DE LA NOCHE… : …cinco horas para el amanecer</li>
+                        <li>The Darkness of God Vs the Shining of Evil: Una Investigación sobre el origen del Mal y...</li>
+                        <li>LOBITA FANGS: ZOMBIES Vs SWATS: Colmillos en la Ceniza (Calificación: 5.0 de 5 estrellas)</li>
+                        <li>EL PACTO DE LA SANGRE Y EL DRAGÓN : CRÓNICA DE LAS NOVIAS DEL CONDE...</li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="space-y-6">
+            <div class="space-y-6 pt-6 border-t border-purple-900/40">
                 <!-- ORCID CON CÍRCULO VERDE INTENSO Y iD -->
                 <div class="flex items-center gap-3 flex-wrap p-4 rounded-2xl bg-emerald-950/30 border border-emerald-500/40 max-w-xl">
                     <div class="w-9 h-9 rounded-full bg-emerald-500 flex items-center justify-center text-slate-950 font-black text-sm shadow-lg glow-orcid">iD</div>
                     <a href="https://orcid.org/0009-0001-5221-6642" target="_blank" class="text-lg font-extrabold text-emerald-400 hover:text-emerald-300 hover:underline transition-colors">https://orcid.org/0009-0001-5221-6642</a>
                 </div>
 
-                <p class="text-white font-bold uppercase pt-4">PUEDES REVISAR MI ORCID COMO INVESTIGADOR Y MIS REPOSITORIOS EN ACADEMIA.EDU Y ZENODO</p>
+                <p class="text-white font-bold uppercase pt-2">PUEDES REVISAR MI ORCID COMO INVESTIGADOR Y MIS REPOSITORIOS EN ACADEMIA.EDU Y ZENODO</p>
                 <a href="https://uvmnet.academia.edu/LeonardoDeLe%C3%B3nGranados" target="_blank" class="text-purple-400 hover:underline break-words block">https://uvmnet.academia.edu/LeonardoDeLe%C3%B3nGranados</a>
                 
                 <!-- IMAGEN DE HOMERO DONAS ARRIBA DE LOS ARTÍCULOS CON DOI -->
@@ -329,22 +349,39 @@
                         <img src="homero donas portada.jpg" alt="Investigación y Publicaciones" class="rounded-2xl border-2 border-emerald-500/50 shadow-xl w-full object-cover h-56">
                     </div>
 
+                    <!-- LISTA COMPLETA DE ARTÍCULOS CON DOI -->
                     <div class="space-y-4 text-purple-200 text-sm">
                         <div>
+                            <p>De León Granados, L. (2026). La trata de las batas blancas y estetoscopios de Temu</p>
+                            <a href="https://doi.org/10.5281/zenodo.22649442" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/zenodo.22649442</a>
+                        </div>
+                        <div>
+                            <p>De León Granados, L. (2026). Ceguera Galáctica: Por Qué Buscamos Carne en un Universo de Silicio, Curvatura y Centinelas</p>
+                            <a href="https://doi.org/10.5281/zenodo.22236873" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/zenodo.22236873</a>
+                        </div>
+                        <div>
+                            <p>De León Granados, L. (2026). ¿Por qué los universos no tienen forma de donas de Homero?</p>
+                            <a href="https://doi.org/10.5281/zenodo.22288647" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/zenodo.22288647</a>
+                        </div>
+                        <div>
+                            <p>De León Granados, L. (2026). De los Autómatas de Alejandría a la Singularidad Bio-Cuántica</p>
+                            <a href="https://doi.org/10.5281/zenodo.22179451" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/zenodo.22179451</a>
+                        </div>
+                        <div>
                             <p>De León Granados, L. (2026). The Darkness of God Vs the Shining of Evil: Hacia una síntesis transdisciplinar sobre el origen, la función y la integración del mal en la experiencia humana</p>
-                            <a href="https://doi.org/10.5281/ZENODO.22135783" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/ZENODO.22135783</a>
+                            <a href="https://doi.org/10.5281/zenodo.22179855" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/zenodo.22179855</a>
+                        </div>
+                        <div>
+                            <p>De León Granados, L. (2025). El Universo como Brana: Gravedad, cuerdas y la arquitectura de la realidad extra-dimensional</p>
+                            <a href="https://doi.org/10.5281/zenodo.22089363" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/zenodo.22089363</a>
                         </div>
                         <div>
                             <p>De León Granados, L. (2022). La hipótesis de la fuga del viajero: Reconceptualización de la paradoja de Fermi y el Gran Filtro mediante la métrica de Alcubierre</p>
-                            <a href="https://doi.org/10.5281/ZENODO.22074621" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/ZENODO.22074621</a>
+                            <a href="https://doi.org/10.5281/zenodo.22074621" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/zenodo.22074621</a>
                         </div>
                         <div>
-                            <p>De León Granados, L. (2025). El Universo como Brana: Gravedad, cuerdas y la arquitectura de la realidad extra-dimensional.</p>
-                            <a href="https://doi.org/10.5281/ZENODO.22089362" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/ZENODO.22089362</a>
-                        </div>
-                        <div>
-                            <p>De León Granados, L. (2025). Videojuegos de acción y de terror, plasticidad cerebral y neuroaprendizaje en estudiantes de medicina [Tesis y propuesta de investigación].</p>
-                            <a href="https://doi.org/10.5281/ZENODO.22074763" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/ZENODO.22074763</a>
+                            <p>De León Granados, L. (2025). Videojuegos de acción y de terror, plasticidad cerebral y neuroaprendizaje en estudiantes de medicina [Tesis y propuesta de investigación]</p>
+                            <a href="https://doi.org/10.5281/zenodo.22074763" target="_blank" class="text-emerald-400 hover:underline">https://doi.org/10.5281/zenodo.22074763</a>
                         </div>
                     </div>
                 </div>
