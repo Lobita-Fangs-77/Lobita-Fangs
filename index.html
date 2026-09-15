@@ -30,55 +30,160 @@
     <!-- BARRA DE NAVEGACIÓN -->
     <header class="fixed top-0 left-0 right-0 z-50 bg-violet-950/90 backdrop-blur-md border-b border-purple-900/40">
         <div class="max-w-7xl mx-auto px-4 h-20 flex flex-wrap items-center justify-between">
-            <a href="#" class="text-xl font-extrabold tracking-wider bg-gradient-to-r from-purple-400 to-violet-300 bg-clip-text text-transparent">
-                Bienvenidos
-            </a>
+            <div class="flex items-center gap-3">
+                <img src="logolf.png" alt="Logotipo Lobita Fangs" class="w-10 h-10 object-contain rounded-lg border border-purple-500/30">
+                <span class="text-xl font-extrabold tracking-wider bg-gradient-to-r from-purple-400 to-violet-300 bg-clip-text text-transparent">
+                    Lobita Fangs
+                </span>
+            </div>
             <nav class="flex items-center gap-2 sm:gap-4 flex-wrap mt-2 sm:mt-0">
-                <a href="#contacto" class="px-3 py-1.5 rounded-xl bg-emerald-600/20 text-emerald-300 text-xs font-bold shadow-sm">Whatsapp</a>
+                <a href="https://wa.me/525591863962?text=Hola%20Dra.%20Lobita%20Fangs,%20me%20gustar%C3%ADa%20ponerme%20en%20contacto%20contigo." target="_blank" class="px-3 py-1.5 rounded-xl bg-emerald-600/20 text-emerald-300 text-xs font-bold shadow-sm hover:bg-emerald-600/40 transition-all">Whatsapp</a>
                 <a href="#contacto" class="px-3 py-1.5 rounded-xl bg-purple-900/40 text-purple-200 text-xs font-bold">Correo</a>
-                <a href="#karumi" class="px-3 py-1.5 rounded-xl bg-purple-700/40 text-purple-100 text-xs font-bold glow-purple">Habla con IA Karumi</a>
+                <a href="https://cdn.botpress.cloud/webchat/v3.7/shareable.html?configUrl=https://files.bpcontent.cloud/2026/08/16/19/20260816191200-GRXS5ZW2.json" target="_blank" class="px-3 py-1.5 rounded-xl bg-purple-700/40 text-purple-100 text-xs font-bold glow-purple">Habla con IA Karumi</a>
                 <a href="#demos" class="px-3 py-1.5 rounded-xl bg-purple-900/40 text-purple-200 text-xs font-bold">Demos</a>
-                <a href="#mentorias" class="px-3 py-1.5 rounded-xl bg-violet-900/50 text-violet-200 text-xs font-bold">Ofertas y promociones</a>
+                <a href="#promociones" class="px-3 py-1.5 rounded-xl bg-violet-900/50 text-violet-200 text-xs font-bold">Promociones</a>
                 <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7074230186065448961" target="_blank" class="px-3 py-1.5 rounded-xl bg-purple-600 text-white text-xs font-bold">Newsletter</a>
             </nav>
         </div>
     </header>
 
-    <!-- PRESENTACIÓN PRINCIPAL -->
-    <section class="pt-32 pb-16 px-4 max-w-5xl mx-auto text-center space-y-6">
-        <h2 class="text-xs uppercase tracking-widest text-purple-400 font-bold">Presentación</h2>
-        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
-            Dr. Leonardo De León Granados Ph.D (c)<br>
-            <span class="text-purple-400">Alias Dra. Lobita Fangs</span>
-        </h1>
-        <p class="text-lg font-bold text-violet-300">C.E.O Lobita Fangs Personal Branding</p>
-        <div class="inline-block p-6 rounded-2xl bg-purple-950/60 border border-purple-800/40 text-sm text-purple-200 space-y-1 text-left">
-            <p>Ph.D. en Neurociencias con Inteligencia Artificial</p>
-            <p>Ph.D.(c) en Neuroeducación e Investigación</p>
-            <p>M.Ed. en Tecnologías de la Educación (EdTech)</p>
-            <p>MBA en Proceso actualmente (UK)</p>
-            <p>Minors en Astronomía y Neuromarketing</p>
-            <p>Bachelors en Diseño Gráfico y Mercadotecnia</p>
-            <p>Diplomaturas en Psicología y Ciencias</p>
+    <!-- PRESENTACIÓN PRINCIPAL CON PORTADA Y FOTO MIA -->
+    <section class="pt-32 pb-16 px-4 max-w-6xl mx-auto">
+        <div class="relative rounded-3xl overflow-hidden border border-purple-700/40 bg-purple-950/40 p-8 md:p-12 mb-12 shadow-2xl">
+            <div class="absolute inset-0 z-0 opacity-25 pointer-events-none">
+                <img src="cover.png" alt="Portada" class="w-full h-full object-cover">
+            </div>
+            <div class="relative z-10 grid md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-4 flex justify-center">
+                    <img src="yo.jpg" alt="Dr. Leonardo De León Granados - Dra. Lobita Fangs" class="w-48 h-48 md:w-60 md:h-60 object-cover rounded-2xl border-2 border-purple-500/50 shadow-xl glow-purple">
+                </div>
+                <div class="md:col-span-8 space-y-4 text-center md:text-left">
+                    <h2 class="text-xs uppercase tracking-widest text-purple-400 font-bold">Presentación</h2>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                        Dr. Leonardo De León Granados Ph.D (c)<br>
+                        <span class="text-purple-400">Alias Dra. Lobita Fangs</span>
+                    </h1>
+                    <p class="text-base font-bold text-violet-300">C.E.O Lobita Fangs Personal Branding</p>
+                    <div class="p-4 rounded-2xl bg-purple-950/80 border border-purple-800/40 text-xs sm:text-sm text-purple-200 space-y-1 text-left">
+                        <p>Ph.D. en Neurociencias con Inteligencia Artificial</p>
+                        <p>Ph.D.(c) en Neuroeducación e Investigación</p>
+                        <p>M.Ed. en Tecnologías de la Educación (EdTech) | MBA en Proceso (UK)</p>
+                        <p>Minors en Astronomía y Neuromarketing | Bachelors en Diseño Gráfico y Mercadotecnia | Diplomaturas en Psicología y Ciencias</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p class="text-xs tracking-widest text-purple-400 font-bold mt-4">DE TODO UN POCO PHD EN NEUROSCIENCES CON MAESTRIA EN TECNOLOGÍAS DE LA EDUCACIÓN</p>
     </section>
 
-    <!-- KARUMI IA Y DEMOS -->
-    <section id="karumi" class="py-12 px-4 max-w-5xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="p-8 rounded-3xl bg-purple-950/60 border border-purple-700/50">
-                <h3 class="text-2xl font-bold text-white mb-4">¿Que es lo que más sueñas ?</h3>
-                <h4 class="text-xl font-bold text-purple-300 mb-2">Platica con Karumi IA</h4>
-                <p class="text-purple-200 mb-4">¿Comenzamos?</p>
-                <button class="w-full py-3 rounded-xl bg-purple-600 text-white font-bold mb-4 shadow-lg glow-purple">DESPLIEGA A KARUMI IA</button>
-                <p class="text-sm text-purple-300">Fue la primera vez que experimente creando una IA 5 años atras.</p>
+    <!-- KARUMI IA Y DEMOS DE IMAGEN, MÚSICA Y PROGRAMACIÓN -->
+    <section id="demos" class="py-12 px-4 max-w-6xl mx-auto space-y-8">
+        <div class="text-center space-y-2">
+            <h2 class="text-xs uppercase tracking-widest text-purple-400 font-bold">Innovación Creativa</h2>
+            <h3 class="text-3xl font-extrabold text-white">Demos de Imágenes, Música y Programación</h3>
+            <p class="text-purple-200 text-sm max-w-2xl mx-auto">Explora el punto de encuentro entre la tecnología, el arte generativo y la inteligencia artificial.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Demo 1: Karumi IA & Programación -->
+            <div id="karumi" class="p-8 rounded-3xl bg-purple-950/70 border border-purple-700/50 flex flex-col justify-between space-y-6 shadow-xl">
+                <div class="space-y-3">
+                    <span class="px-3 py-1 rounded-full bg-purple-900/60 text-purple-300 text-xs font-bold">IA & Código</span>
+                    <h4 class="text-xl font-bold text-white">Platica con Karumi IA</h4>
+                    <p class="text-xs text-purple-300">Asistente conversacional inteligente creado de forma personalizada para interactuar con visitantes y alumnos.</p>
+                </div>
+                <div class="space-y-4">
+                    <a href="https://cdn.botpress.cloud/webchat/v3.7/shareable.html?configUrl=https://files.bpcontent.cloud/2026/08/16/19/20260816191200-GRXS5ZW2.json" target="_blank" class="block text-center py-3 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs shadow-lg glow-purple transition-all">DESPLIEGA A KARUMI IA</a>
+                    <p class="text-xs text-purple-300 italic">"Fue la primera vez que experimenté creando una IA hace 5 años."</p>
+                </div>
             </div>
-            
-            <div id="demos" class="p-8 rounded-3xl bg-purple-950/60 border border-purple-700/50">
-                <h3 class="text-xl font-bold text-white mb-4">Te enseñare a hacer imágenes TOP y videos con IA generativa gratuita</h3>
-                <a href="https://creator.nightcafe.studio/u/Lobita_Fangs" target="_blank" class="text-purple-400 break-words text-sm hover:underline">https://creator.nightcafe.studio/u/Lobita_Fangs</a>
-                <p class="text-purple-200 mt-4 text-sm">Visita mi perfil de NigthCafe y juzga por ti misma(o)… ¿acaso ya te dije que también te enseñare a hacer musical con Suno Studio ?.</p>
+
+            <!-- Demo 2: Imágenes TOP con IA (NightCafe) -->
+            <div class="p-8 rounded-3xl bg-purple-950/70 border border-purple-700/50 flex flex-col justify-between space-y-6 shadow-xl">
+                <div class="space-y-3">
+                    <span class="px-3 py-1 rounded-full bg-violet-800/60 text-violet-200 text-xs font-bold">Arte Visual</span>
+                    <h4 class="text-xl font-bold text-white">Imágenes TOP (NightCafe)</h4>
+                    <p class="text-xs text-purple-300">Creación de arte visual, mundos góticos y estéticas oscuras mediante modelos de IA generativa gratuita.</p>
+                </div>
+                <div class="space-y-4">
+                    <a href="https://creator.nightcafe.studio/u/Lobita_Fangs" target="_blank" class="block text-center py-3 rounded-xl bg-purple-700/60 hover:bg-purple-600 text-white font-bold text-xs transition-all shadow-md">VER PERFIL NIGHTCAFE</a>
+                    <p class="text-xs text-purple-300">Juzga por ti misma(o) las galerías visuales generadas.</p>
+                </div>
+            </div>
+
+            <!-- Demo 3: Música Generativa (Suno Studio) -->
+            <div class="p-8 rounded-3xl bg-purple-950/70 border border-purple-700/50 flex flex-col justify-between space-y-6 shadow-xl">
+                <div class="space-y-3">
+                    <span class="px-3 py-1 rounded-full bg-emerald-900/60 text-emerald-300 text-xs font-bold">Composición</span>
+                    <h4 class="text-xl font-bold text-white">Música con Suno Studio</h4>
+                    <p class="text-xs text-purple-300">Diseño de letras y estructuras musicales adaptadas para producción en Suno, abarcando géneros desde boleros hasta atmósferas oscuras.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="py-3 px-4 rounded-xl bg-purple-900/40 text-purple-200 text-xs text-center border border-purple-800/40">Letras y producción musical optimizadas para app externa</div>
+                    <p class="text-xs text-purple-300">Creatividad sonora llevada al compás del código y la poesía.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE PROMOCIONES Y PRECIOS DE ASESORÍAS -->
+    <section id="promociones" class="py-20 px-4 max-w-6xl mx-auto space-y-12">
+        <div class="text-center space-y-3">
+            <h2 class="text-xs uppercase tracking-widest text-purple-400 font-bold">Inversión en tu futuro académico</h2>
+            <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Promociones & Servicios Profesionales</h3>
+            <p class="text-purple-200 text-sm max-w-2xl mx-auto">Sesiones personalizadas de alto rendimiento vía Zoom o Google Meet con rigor científico, enfoque aspie/savant y acompañamiento humano.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Servicio 1: Asesorías y Mentorías -->
+            <div class="p-6 rounded-3xl bg-purple-950/70 border border-purple-700/50 flex flex-col justify-between space-y-6 shadow-xl">
+                <div class="space-y-3">
+                    <span class="px-3 py-1 rounded-full bg-purple-900/60 text-purple-300 text-xs font-bold">Individual</span>
+                    <h4 class="text-xl font-bold text-white">Asesorías & Mentorías</h4>
+                    <p class="text-xs text-purple-300">Clases particulares por hora vía Zoom o Meet enfocadas en ciencia, neurociencias y resolución de dudas complejas.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-2xl font-black text-purple-400">$850 <span class="text-xs font-normal text-purple-300">MXN / hora</span></div>
+                    <a href="https://wa.me/525591863962?text=Hola%20Dra.%20Lobita%20Fangs,%20me%20interesa%20agendar%20una%20sesión%20de%20asesoría%20o%20mentoría." target="_blank" class="block text-center py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs transition-all shadow-md">Reservar por WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Servicio 2: Lectura de Habilidades Blandas -->
+            <div class="p-6 rounded-3xl bg-purple-950/70 border border-purple-700/50 flex flex-col justify-between space-y-6 shadow-xl glow-purple">
+                <div class="space-y-3">
+                    <span class="px-3 py-1 rounded-full bg-violet-800/60 text-violet-200 text-xs font-bold">Especial</span>
+                    <h4 class="text-xl font-bold text-white">Lectura de Habilidades Blandas</h4>
+                    <p class="text-xs text-purple-300">Conexión profunda con el inconsciente para destrabar bloqueos emocionales y proyectar tu futuro profesional.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-2xl font-black text-purple-400">$1,200 <span class="text-xs font-normal text-purple-300">MXN / sesión</span></div>
+                    <a href="https://wa.me/525591863962?text=Hola%20Dra.%20Lobita%20Fangs,%20deseo%20agendar%20una%20Lectura%20de%20Habilidades%20Blandas." target="_blank" class="block text-center py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs transition-all shadow-md">Reservar por WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Servicio 3: Preparación para Exámenes -->
+            <div class="p-6 rounded-3xl bg-purple-950/70 border border-purple-700/50 flex flex-col justify-between space-y-6 shadow-xl">
+                <div class="space-y-3">
+                    <span class="px-3 py-1 rounded-full bg-purple-900/60 text-purple-300 text-xs font-bold">Alto Rendimiento</span>
+                    <h4 class="text-xl font-bold text-white">Preparación de Exámenes</h4>
+                    <p class="text-xs text-purple-300">Entrenamiento cognitivo y repaso intensivo para exámenes universitarios, de admisión o posgrados.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-2xl font-black text-purple-400">$950 <span class="text-xs font-normal text-purple-300">MXN / hora</span></div>
+                    <a href="https://wa.me/525591863962?text=Hola%20Dra.%20Lobita%20Fangs,%20me%20interesa%20preparación%20para%20exámenes." target="_blank" class="block text-center py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs transition-all shadow-md">Reservar por WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Servicio 4: Asesoría en Tesis -->
+            <div class="p-6 rounded-3xl bg-purple-950/70 border border-purple-700/50 flex flex-col justify-between space-y-6 shadow-xl">
+                <div class="space-y-3">
+                    <span class="px-3 py-1 rounded-full bg-emerald-900/60 text-emerald-300 text-xs font-bold">Posgrado</span>
+                    <h4 class="text-xl font-bold text-white">Asesoría Integral en Tesis</h4>
+                    <p class="text-xs text-purple-300">Metodología de investigación, marcos teóricos, APA 7, análisis estadístico y revisión de estructura doctoral.</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="text-2xl font-black text-purple-400">$1,500 <span class="text-xs font-normal text-purple-300">MXN / hora</span></div>
+                    <a href="https://wa.me/525591863962?text=Hola%20Dra.%20Lobita%20Fangs,%20necesito%20asesoría%20especializada%20para%20mi%20tesis." target="_blank" class="block text-center py-2.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs transition-all shadow-md">Reservar por WhatsApp</a>
+                </div>
             </div>
         </div>
     </section>
@@ -94,14 +199,17 @@
         </div>
     </section>
 
-    <!-- MENTORÍAS Y TUTORÍAS -->
+    <!-- MENTORÍAS Y FOTO DE LO QUE HACES -->
     <section id="mentorias" class="py-16 px-4 max-w-5xl mx-auto space-y-12">
-        <div class="space-y-6 text-purple-100 text-lg leading-relaxed">
-            <h2 class="text-3xl font-extrabold text-white">Mis mentorías son...</h2>
-            <p>A lo largo de mi trayectoria académica y científica, siempre he tenido claro que la educación superior no se trata solo de acumular datos o memorizar conceptos, sino de transformar la forma en que las mentes jóvenes procesan el mundo, es por eso que mis mentorías personalizadas están diseñadas desde la raíz misma de la neuroeducación y la ciencia cognitiva: para conectar de verdad con el potencial de cada estudiante.</p>
-            <p>Cuando un alumno llega a mis mentorías —ya sea enfrentándose al reto titánico de una tesis, navegando por complejos marcos metodológicos o buscando dominar áreas tan diversas como las neurociencias, la investigación o la tecnología—, mi objetivo no es darle respuestas hechas, sino enseñarle a pensar con rigor, profundidad y autonomía.</p>
-            <p>Gracias a mi propia forma de experimentar y entender el aprendizaje, sé perfectamente que cada cerebro procesa la información de manera única, es por eso que mis sesiones son completamente a la medida; no hay fórmulas genéricas, sino estrategias personalizadas que desbloquean la creatividad, afinan el pensamiento crítico y convierten la ciencia en una herramienta apasionante.</p>
-            <p>Ver a un estudiante universitario o de posgrado pasar de la frustración a la claridad absoluta, comprender la arquitectura detrás de su propia investigación y enamorarse del conocimiento es una de mis mayores pasiones, pues al final, ser mentor es tender un puente entre la exigencia académica más alta y la calidez humana, guiando a otros a descubrir de lo que realmente son capaces....</p>
+        <div class="grid md:grid-cols-12 gap-8 items-center">
+            <div class="md:col-span-7 space-y-6 text-purple-100 text-base leading-relaxed">
+                <h2 class="text-3xl font-extrabold text-white">Mis mentorías son...</h2>
+                <p>A lo largo de mi trayectoria académica y científica, siempre he tenido claro que la educación superior no se trata solo de acumular datos o memorizar conceptos, sino de transformar la forma en que las mentes jóvenes procesan el mundo, es por eso que mis mentorías personalizadas están diseñadas desde la raíz misma de la neuroeducación y la ciencia cognitiva: para conectar de verdad con el potencial de cada estudiante.</p>
+                <p>Cuando un alumno llega a mis mentorías —ya sea enfrentándose al reto titánico de una tesis, navegando por complejos marcos metodológicos o buscando dominar áreas tan diversas como las neurociencias, la investigación o la tecnología—, mi objetivo no es darle respuestas hechas, sino enseñarle a pensar con rigor, profundidad y autonomía.</p>
+            </div>
+            <div class="md:col-span-5">
+                <img src="karumi.jpg" alt="Mentorías Lobita Fangs" class="rounded-3xl border border-purple-700/50 shadow-xl w-full object-cover h-72">
+            </div>
         </div>
 
         <div class="p-8 rounded-3xl bg-purple-950/60 border border-purple-700/50">
@@ -166,9 +274,14 @@
     <section class="py-16 bg-violet-950/40 border-y border-purple-900/30 px-4">
         <div class="max-w-5xl mx-auto space-y-12">
             
-            <div class="space-y-4">
-                <h2 class="text-2xl font-extrabold text-white">Mis Libros publicados en Amazon</h2>
-                <a href="https://www.amazon.com/author/dr.leonardodeleongranados" target="_blank" class="text-purple-400 hover:underline break-words block">https://www.amazon.com/author/dr.leonardodeleongranados</a>
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-8 space-y-4">
+                    <h2 class="text-2xl font-extrabold text-white">Mis Libros publicados en Amazon</h2>
+                    <a href="https://www.amazon.com/author/dr.leonardodeleongranados" target="_blank" class="text-purple-400 hover:underline break-words block">https://www.amazon.com/author/dr.leonardodeleongranados</a>
+                </div>
+                <div class="md:col-span-4">
+                    <img src="Libros.jpg" alt="Libros Amazon Lobita Fangs" class="rounded-2xl border border-purple-700/50 shadow-lg w-full object-cover h-48">
+                </div>
             </div>
 
             <div class="space-y-6">
@@ -182,7 +295,7 @@
                         <a href="https://doi.org/10.5281/ZENODO.22135783" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22135783</a>
                     </div>
                     <div>
-                        <p>De León Granados, L. (2022). La hipótesis de la fuga del viajero: Reconceptualización de la paradoja de Fermi y el Gran Filtro mediante la métrica de Alcubierre y la contención en la Nube de Oort</p>
+                        <p>De León Granados, L. (2022). La hipótesis de la fuga del viajero: Reconceptualización de la paradoja de Fermi y el Gran Filtro mediante la métrica de Alcubierre</p>
                         <a href="https://doi.org/10.5281/ZENODO.22074621" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22074621</a>
                     </div>
                     <div>
