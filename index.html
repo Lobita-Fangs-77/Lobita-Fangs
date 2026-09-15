@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Leonardo De León Granados | Dra. Lobita Fangs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        purple: { 950: '#1a0b2e', 900: '#2c1250', 800: '#43187a', 700: '#5c22a6', 600: '#7b33d4', 500: '#9b4de0' },
+                        violet: { 950: '#12071f', 900: '#1f0d33', 800: '#351859' }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0d0614; color: #f3e8ff; }
+        .glow-purple { box-shadow: 0 0 25px rgba(123, 51, 212, 0.35); }
+        .bg-grid { background-image: radial-gradient(rgba(123, 51, 212, 0.15) 1px, transparent 1px); background-size: 32px 32px; }
+    </style>
+</head>
+<body class="bg-grid antialiased selection:bg-purple-600 selection:text-white">
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-violet-950/90 backdrop-blur-md border-b border-purple-900/40">
+        <div class="max-w-7xl mx-auto px-4 h-20 flex flex-wrap items-center justify-between">
+            <a href="#" class="text-xl font-extrabold tracking-wider bg-gradient-to-r from-purple-400 to-violet-300 bg-clip-text text-transparent">
+                Bienvenidos
+            </a>
+            <nav class="flex items-center gap-2 sm:gap-4 flex-wrap mt-2 sm:mt-0">
+                <a href="#contacto" class="px-3 py-1.5 rounded-xl bg-emerald-600/20 text-emerald-300 text-xs font-bold shadow-sm">Whatsapp</a>
+                <a href="#contacto" class="px-3 py-1.5 rounded-xl bg-purple-900/40 text-purple-200 text-xs font-bold">Correo</a>
+                <a href="#karumi" class="px-3 py-1.5 rounded-xl bg-purple-700/40 text-purple-100 text-xs font-bold glow-purple">Habla con IA Karumi</a>
+                <a href="#demos" class="px-3 py-1.5 rounded-xl bg-purple-900/40 text-purple-200 text-xs font-bold">Demos</a>
+                <a href="#mentorias" class="px-3 py-1.5 rounded-xl bg-violet-900/50 text-violet-200 text-xs font-bold">Ofertas y promociones</a>
+                <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7074230186065448961" target="_blank" class="px-3 py-1.5 rounded-xl bg-purple-600 text-white text-xs font-bold">Newsletter</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PRESENTACIÓN PRINCIPAL -->
+    <section class="pt-32 pb-16 px-4 max-w-5xl mx-auto text-center space-y-6">
+        <h2 class="text-xs uppercase tracking-widest text-purple-400 font-bold">Presentación</h2>
+        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
+            Dr. Leonardo De León Granados Ph.D (c)<br>
+            <span class="text-purple-400">Alias Dra. Lobita Fangs</span>
+        </h1>
+        <p class="text-lg font-bold text-violet-300">C.E.O Lobita Fangs Personal Branding</p>
+        <div class="inline-block p-6 rounded-2xl bg-purple-950/60 border border-purple-800/40 text-sm text-purple-200 space-y-1 text-left">
+            <p>Ph.D. en Neurociencias con Inteligencia Artificial</p>
+            <p>Ph.D.(c) en Neuroeducación e Investigación</p>
+            <p>M.Ed. en Tecnologías de la Educación (EdTech)</p>
+            <p>MBA en Proceso actualmente (UK)</p>
+            <p>Minors en Astronomía y Neuromarketing</p>
+            <p>Bachelors en Diseño Gráfico y Mercadotecnia</p>
+            <p>Diplomaturas en Psicología y Ciencias</p>
+        </div>
+        <p class="text-xs tracking-widest text-purple-400 font-bold mt-4">DE TODO UN POCO PHD EN NEUROSCIENCES CON MAESTRIA EN TECNOLOGÍAS DE LA EDUCACIÓN</p>
+    </section>
+
+    <!-- KARUMI IA Y DEMOS -->
+    <section id="karumi" class="py-12 px-4 max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="p-8 rounded-3xl bg-purple-950/60 border border-purple-700/50">
+                <h3 class="text-2xl font-bold text-white mb-4">¿Que es lo que más sueñas ?</h3>
+                <h4 class="text-xl font-bold text-purple-300 mb-2">Platica con Karumi IA</h4>
+                <p class="text-purple-200 mb-4">¿Comenzamos?</p>
+                <button class="w-full py-3 rounded-xl bg-purple-600 text-white font-bold mb-4 shadow-lg glow-purple">DESPLIEGA A KARUMI IA</button>
+                <p class="text-sm text-purple-300">Fue la primera vez que experimente creando una IA 5 años atras.</p>
+            </div>
+            
+            <div id="demos" class="p-8 rounded-3xl bg-purple-950/60 border border-purple-700/50">
+                <h3 class="text-xl font-bold text-white mb-4">Te enseñare a hacer imágenes TOP y videos con IA generativa gratuita</h3>
+                <a href="https://creator.nightcafe.studio/u/Lobita_Fangs" target="_blank" class="text-purple-400 break-words text-sm hover:underline">https://creator.nightcafe.studio/u/Lobita_Fangs</a>
+                <p class="text-purple-200 mt-4 text-sm">Visita mi perfil de NigthCafe y juzga por ti misma(o)… ¿acaso ya te dije que también te enseñare a hacer musical con Suno Studio ?.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="py-16 bg-violet-950/40 border-y border-purple-900/30 px-4">
+        <div class="max-w-4xl mx-auto space-y-6 text-purple-100 text-lg leading-relaxed">
+            <h2 class="text-3xl font-extrabold text-white text-center mb-8">"Sobre mi y mi otro yo"</h2>
+            <p>Siempre he creído que la ciencia y la oscuridad no son mundos opuestos, sino dos caras de la misma moneda: formas profundas de intentar descifrar los grandes misterios de la existencia, es por eso, mi camino como escritor y divulgador navega exactamente entre esos dos abismos, pues como autor, me apasiona explorar el terror desde el dark gothic style, entrelazándolo con una delicada e intensa mirada hacia el amor sáfico.</p>
+            <p>En obras como Lobas, El pacto de la sangre y el dragón: Crónica de las novias del conde y Crepúsculo Zombie - Libro 1: Un Amor Inusual, busco construir refugios para las sombras, atmósferas lúgubres donde los monstruos, la sangre y la melancolía se funden con pasiones que desafían el tiempo y las convenciones, ya que para mí, el terror gótico es un lienzo perfecto para hablar de lo que nos consume y nos define por dentro.</p>
+            <p>Pero mi mente nunca descansa solo en la ficción pues como investigador y divulgador científico, mi fascinación se expande hacia la inmensidad del cosmos y los laberintos de la mente, ya sea desentrañando los secretos de la física cuántica y la astronomía, o traduciendo la compleja magia de las neurociencias, mi objetivo siempre es el mismo: acercar el conocimiento con la misma intensidad con la que escribo una historia de terror.</p>
+            <p>Al final, ya sea diseccionando las sinapsis de la memoria, contemplando las ecuaciones de un agujero negro o tejiendo crónicas de vampiros y amores prohibidos, lo que busco es entender el universo y dejar un pedacito de mi alma en cada página.</p>
+        </div>
+    </section>
+
+    <!-- MENTORÍAS Y TUTORÍAS -->
+    <section id="mentorias" class="py-16 px-4 max-w-5xl mx-auto space-y-12">
+        <div class="space-y-6 text-purple-100 text-lg leading-relaxed">
+            <h2 class="text-3xl font-extrabold text-white">Mis mentorías son...</h2>
+            <p>A lo largo de mi trayectoria académica y científica, siempre he tenido claro que la educación superior no se trata solo de acumular datos o memorizar conceptos, sino de transformar la forma en que las mentes jóvenes procesan el mundo, es por eso que mis mentorías personalizadas están diseñadas desde la raíz misma de la neuroeducación y la ciencia cognitiva: para conectar de verdad con el potencial de cada estudiante.</p>
+            <p>Cuando un alumno llega a mis mentorías —ya sea enfrentándose al reto titánico de una tesis, navegando por complejos marcos metodológicos o buscando dominar áreas tan diversas como las neurociencias, la investigación o la tecnología—, mi objetivo no es darle respuestas hechas, sino enseñarle a pensar con rigor, profundidad y autonomía.</p>
+            <p>Gracias a mi propia forma de experimentar y entender el aprendizaje, sé perfectamente que cada cerebro procesa la información de manera única, es por eso que mis sesiones son completamente a la medida; no hay fórmulas genéricas, sino estrategias personalizadas que desbloquean la creatividad, afinan el pensamiento crítico y convierten la ciencia en una herramienta apasionante.</p>
+            <p>Ver a un estudiante universitario o de posgrado pasar de la frustración a la claridad absoluta, comprender la arquitectura detrás de su propia investigación y enamorarse del conocimiento es una de mis mayores pasiones, pues al final, ser mentor es tender un puente entre la exigencia académica más alta y la calidez humana, guiando a otros a descubrir de lo que realmente son capaces....</p>
+        </div>
+
+        <div class="p-8 rounded-3xl bg-purple-950/60 border border-purple-700/50">
+            <h2 class="text-2xl font-bold text-white mb-4">Mis métodos de Tutoría para educación superior</h2>
+            <p class="text-purple-200">Ya sea a través de platicas, exposiciones, o simplemente sentarnos a platicar con una taza de café, me comprometo a proporcionarte respuestas claras y precisas a todas tus preguntas de muchas áreas del conocimiento humano, cuento con numerosas certificaciones, cursos, diplomados, licenciaturas y posgrados con gran bagaje comprobable, sigue leyendo y abajo encontraras mis redes sociales y contacto, para platicar uno a uno.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="p-6 bg-violet-950 rounded-2xl border border-purple-800">
+                <h3 class="text-xl font-bold text-white mb-2">Naciste de los astros</h3>
+                <p class="text-sm text-purple-200">Cada molecula de tu cuerpo es parte del universo y ha existido por miles de millones de años, naciste de una supernova y las influencias para con tu persona son basicas para comprender el impacto de tu origen cosmico es mi tarea.</p>
+            </div>
+            <div class="p-6 bg-violet-950 rounded-2xl border border-purple-800">
+                <h3 class="text-xl font-bold text-white mb-2">Acompañamiento</h3>
+                <p class="text-sm text-purple-200">Un tutor ayuda no solo a obtener lo que necesitas para cursar un grado, te da herramientas de vida y habilidades para poder brillar por cuenta propia.</p>
+            </div>
+            <div class="p-6 bg-violet-950 rounded-2xl border border-purple-800">
+                <h3 class="text-xl font-bold text-white mb-2">El tiempo</h3>
+                <p class="text-sm text-purple-200">Recuerda que el tiempo es el recurso mas valioso y escaso en la vida de un ser humano, sueña, juega, rie y llora, pero nunca te detengas inicia tu devenir hoy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WOLVES OF LEARNING & SOFT SKILLS -->
+    <section class="py-16 bg-violet-950/40 border-y border-purple-900/30 px-4">
+        <div class="max-w-4xl mx-auto space-y-12">
+            <div>
+                <h2 class="text-3xl font-extrabold text-white mb-4">Wolves of Learning</h2>
+                <p class="text-purple-200 text-lg">El aprendizaje es la gema más oscura que arrancamos al abismo del tiempo: un filo que afila el colmillo y graba la sabiduría en el hueso, porque ninguna bestia sobrevive a la noche eterna caminando en solitario; es en el calor de la manada, en el latido unísono y la lealtad salvaje de la jauría, donde cada lobo encuentra la fuerza para aullar a la luna y desafiar a la oscuridad.</p>
+            </div>
+            <div>
+                <h2 class="text-3xl font-extrabold text-white mb-4">Lectura de tus Habilidades Blandas</h2>
+                <p class="text-purple-200 text-lg">Las Soft Skills son una poderosa herramienta para conectar con el inconsciente y descubrir las fuerzas ocultas que influyen en la vida de una persona. Puede aclarar situaciones complejas, revelar bloqueos emocionales y dar una visión más clara del futuro academico y profesional.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="py-16 px-4 max-w-5xl mx-auto">
+        <h2 class="text-3xl font-extrabold text-white text-center mb-4">Testimonios reales fotos generadas por IA</h2>
+        <p class="text-center text-purple-200 mb-8">Estamos orgullosos de haber ayudado a muchas personas a superar los obstáculos de la vida y a encontrar el camino hacia la paz interior y la felicidad.</p>
+        
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
+            <div class="p-6 bg-purple-950/60 rounded-2xl border border-purple-800/50">
+                <p class="text-sm text-purple-100 italic mb-4">"Estaba completamente perdida en mi vida personal y profesional, pero gracias a Lobita Fangs, he comprendido mis puntos fuertes y débiles, y estoy construyendo una vida más plena."</p>
+                <p class="text-xs font-bold text-purple-400">Fernanda Alonso, 2025</p>
+            </div>
+            <div class="p-6 bg-purple-950/60 rounded-2xl border border-purple-800/50">
+                <p class="text-sm text-purple-100 italic mb-4">"Realmente no creía en la tutoría, pero después de consultar la Lobita Fangs, me sorprendió lo mucho que mis cuestionamientos existenciales influyen en mis emociones y decisiones. Realmente me ayudó a comprenderme mejor."</p>
+                <p class="text-xs font-bold text-purple-400">Margarita M, 2024</p>
+            </div>
+            <div class="p-6 bg-purple-950/60 rounded-2xl border border-purple-800/50">
+                <p class="text-sm text-purple-100 italic mb-4">"Parecia que Lobita tenia una bola de cristal pues me dio una visión clara de mi futuro y de lo que tenía que hacer y que estudiar para conseguir mis objetivos. Estoy muy agradecida por los valiosos consejos que recibí y recomendaría encarecidamente a este profesional con cualquiera."</p>
+                <p class="text-xs font-bold text-purple-400">Paola K, 2023</p>
+            </div>
+        </div>
+        
+        <p class="text-center text-purple-200 text-lg">Acompáñame en una experiencia de descubrimiento personal, en la que te guiaré a través de los vericuetos de tu futuro a travéz de la educación para aportarte paz y claridad en tu futuro escolar y laboral.<br><br><span class="font-bold text-white">"La educación es el arte de ver lo que está más allá"</span></p>
+    </section>
+
+    <!-- PUBLICACIONES, ORCID Y LIBROS -->
+    <section class="py-16 bg-violet-950/40 border-y border-purple-900/30 px-4">
+        <div class="max-w-5xl mx-auto space-y-12">
+            
+            <div class="space-y-4">
+                <h2 class="text-2xl font-extrabold text-white">Mis Libros publicados en Amazon</h2>
+                <a href="https://www.amazon.com/author/dr.leonardodeleongranados" target="_blank" class="text-purple-400 hover:underline break-words block">https://www.amazon.com/author/dr.leonardodeleongranados</a>
+            </div>
+
+            <div class="space-y-6">
+                <a href="https://orcid.org/0009-0001-5221-6642" target="_blank" class="text-xl font-bold text-purple-300 hover:underline">https://orcid.org/0009-0001-5221-6642</a>
+                <p class="text-white font-bold uppercase">PUEDES REVISAR MI ORCID COMO INVESTIGADOR Y MIS REPOSITORIOS EN ACADEMIA.EDU Y ZENODO</p>
+                <a href="https://uvmnet.academia.edu/LeonardoDeLe%C3%B3nGranados" target="_blank" class="text-purple-400 hover:underline break-words block">https://uvmnet.academia.edu/LeonardoDeLe%C3%B3nGranados</a>
+                
+                <div class="space-y-4 text-purple-200 text-sm mt-6">
+                    <div>
+                        <p>De León Granados, L. (2026). The Darkness of God Vs the Shining of Evil: Hacia una síntesis transdisciplinar sobre el origen, la función y la integración del mal en la experiencia humana</p>
+                        <a href="https://doi.org/10.5281/ZENODO.22135783" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22135783</a>
+                    </div>
+                    <div>
+                        <p>De León Granados, L. (2022). La hipótesis de la fuga del viajero: Reconceptualización de la paradoja de Fermi y el Gran Filtro mediante la métrica de Alcubierre y la contención en la Nube de Oort</p>
+                        <a href="https://doi.org/10.5281/ZENODO.22074621" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22074621</a>
+                    </div>
+                    <div>
+                        <p>De León Granados, L. (2025). El Universo como Brana: Gravedad, cuerdas y la arquitectura de la realidad extra-dimensional.</p>
+                        <a href="https://doi.org/10.5281/ZENODO.22089362" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22089362</a>
+                    </div>
+                    <div>
+                        <p>De León Granados, L. (2025). Videojuegos de acción y de terror, plasticidad cerebral y neuroaprendizaje en estudiantes de medicina [Tesis y propuesta de investigación].</p>
+                        <a href="https://doi.org/10.5281/ZENODO.22074763" target="_blank" class="text-purple-400 hover:underline">https://doi.org/10.5281/ZENODO.22074763</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER Y REDES SOCIALES -->
+    <footer id="contacto" class="py-12 px-4 max-w-5xl mx-auto text-center space-y-8">
+        <div class="space-y-4">
+            <h2 class="text-2xl font-bold text-white">Lobita Fangs en TikTok</h2>
+            <a href="https://www.tiktok.com/@lobita_fangs" target="_blank" class="text-purple-400 hover:underline">https://www.tiktok.com/@lobita_fangs</a>
+        </div>
+        
+        <div class="p-6 rounded-2xl bg-purple-900/30 border border-purple-700/50 inline-block">
+            <h3 class="text-xl font-bold text-white mb-2">Nuestro boletín informativo Linkedin</h3>
+            <p class="text-purple-200 text-sm mb-4">Únete a nuestra comunidad de Linkedin y manténte informado de las últimas noticias suscribiéndote a nuestro NEWSLETTER<br>Neuroeducación 4.0</p>
+            <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7074230186065448961" target="_blank" class="text-purple-400 hover:underline break-words">https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7074230186065448961</a>
+        </div>
+    </footer>
+
+</body>
+</html>
